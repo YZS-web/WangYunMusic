@@ -7,24 +7,26 @@
     android:background="@drawable/bg_green">
 
     <androidx.cardview.widget.CardView
-        app:cardUseCompatPadding="true"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="15dp"
         app:cardBackgroundColor="#ffbbff"
         app:cardCornerRadius="15dp"
-        android:layout_marginTop="15dp">
+        app:cardUseCompatPadding="true">
+
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="411dp"
+            android:layout_height="77dp">
+
             <TextView
                 android:id="@+id/comment_info"
-                android:layout_marginLeft="30dp"
-                android:layout_centerInParent="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="30dp"
+                android:text="信息介绍(是评论的音乐信息)"
                 android:textColor="#000000"
-                android:textSize="20sp"
-                android:text="这里是信息介绍(是评论的音乐信息)"/>
+                android:textSize="20sp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
     <ProgressBar

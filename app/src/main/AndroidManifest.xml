@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shuai.musicplayer2">
+    package="com.WangYun.music">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -14,18 +14,18 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayer2">
-        <activity android:name=".control.Main">
+        <activity android:name="com.WangYun.music.control.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".service.PlayService"/>
-        <activity android:name=".control.Player"/>
-        <activity android:name=".control.Result"/>
-        <activity android:name=".control.Comment"/>
-        <activity android:name=".control.Download"/>
+        <service android:name="com.WangYun.music.service.PlayService"/>
+        <activity android:name="com.WangYun.music.control.Player"/>
+        <activity android:name="com.WangYun.music.control.Result"/>
+        <activity android:name="com.WangYun.music.control.Comment"/>
+        <activity android:name="com.WangYun.music.control.Download"/>
     </application>
 
 </manifest>

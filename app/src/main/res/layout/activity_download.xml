@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                android:text="本地下载的音乐"/>
+                android:text="本地音乐"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
     <ListView

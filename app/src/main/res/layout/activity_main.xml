@@ -50,7 +50,7 @@
                     android:layout_below="@id/main_like"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="喜欢的音乐"/>
+                    android:text="我喜欢"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_alignParentRight="true"
